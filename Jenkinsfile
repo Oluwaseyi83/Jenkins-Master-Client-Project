@@ -33,12 +33,12 @@ pipeline {
             sh 'mvn checkstyle:checkstyle'
         }
     }
-    stage('SonarQube Inspection') {
-        steps {
+    stage('SonarQube Inspection') {                                            
+        steps {                                                                        
             sh  """mvn sonar:sonar \
-                   -Dsonar.projectKey=Maven-JavaWebApp \
-                   -Dsonar.host.url=http://172.31.11.83:9000 \
-                   -Dsonar.login=7ac9fbd36c2ff0624901627ae055f1c9f0a59cf4"""
+                   -Dsonar.projectKey=MavenClient-JavaWebApp \
+                   -Dsonar.host.url=http://172.31.6.44:9000 \                         
+                   -Dsonar.login=3e01dc4c4fde863a25be2bbf8414212608b375de"""
         }
     }
     stage("Upload Artifact To Nexus"){
