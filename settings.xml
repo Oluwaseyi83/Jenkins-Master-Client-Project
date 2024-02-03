@@ -71,7 +71,7 @@ under the License.
        <repository>
          <id>nexus-release-repo</id>
          <name>your custom repo</name>
-         <url>http://172.31.25.255:8081/repository/MavenClient-JavaWebApp/</url>   <!-- Update the IP/Address to Your Nexus VM IP -->
+         <url>http://172.31.25.255:8081/repository/MavenClient-JavaWebApp/</url>        <!-- Update the IP/Address to Your Nexus VM IP -->
        </repository>                                                                    <!-- Mmake sure to create the "maven-release" repo in Nexus -->
      </repositories>
    </profile>

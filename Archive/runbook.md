@@ -76,7 +76,7 @@ yum install git -y
 - Labels:                `Maven-Build-Env`
 - Usage:                 `Use this node as much as possible`
 - Launch method:         `Launch agents via SSH`
-    - Host:   `Provide IP of Maven-Build-Server`
+    - Host:   `Provide Public IP of Maven-Build-Server`
     - Credentials:
         - Click on `Add / Jenkins` and Select `Username and Password`
         - Username: `jenkinsmaster`
@@ -111,7 +111,7 @@ yum install git -y
 - Labels:                `Gradle-Build-Env`
 - Usage:                 `Use this node as much as possible`
 - Launch method:         `Launch agents via SSH`
-    - Host:   `Provide IP of Gradle-Build-Server`
+    - Host:   `Provide Public IP of Gradle-Build-Server`
     - Credentials:
         - Click on `Add / Jenkins` and Select `Username and Password`
         - Username: `jenkinsmaster`
